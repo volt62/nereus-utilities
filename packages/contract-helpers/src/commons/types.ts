@@ -13,6 +13,7 @@ export enum InterestRate {
 export const ChainIdToNetwork: Record<number, string> = {
   1: 'mainnet',
   3: 'ropsten',
+  5: 'goerly',
   42: 'kovan',
   100: 'xDAI',
   137: 'polygon',
@@ -26,6 +27,7 @@ export const ChainIdToNetwork: Record<number, string> = {
 export enum ChainId {
   mainnet = 1,
   ropsten = 3,
+  goerly = 5,
   kovan = 42,
   polygon = 137,
   mumbai = 80001,
